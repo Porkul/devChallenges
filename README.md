@@ -54,5 +54,6 @@ When you complete the challenge, submit your solution. You can also check if the
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-  <a href="https://www.linkedin.com/in/katrin-porkul-0bb99a1ba/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="katrin-porkul" height="30" width="40" /></a>
+  <a href="https://www.linkedin.com/in/katrin-porkul-0bb99a1ba/" target="blank"><img align="center" src="https://edent.github.io/SuperTinyIcons/images/svg/linkedin.svg" alt="katrin-porkul" height="40" width="50" /></a>
+  <a href="mailto:katrin.porkul@icloud.com?subject=[GitHub]%20Source%20Han%20Sans" target="blank"><img align="center" src="https://edent.github.io/SuperTinyIcons/images/svg/gmail.svg" alt="katrin-porkul" height="80" width="55" /></a>
 </p>
