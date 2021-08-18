@@ -50,3 +50,9 @@ All challenges can be completed by one person, but teamwork is important at work
 Step 3: Submit your solutions and give feedback
 
 When you complete the challenge, submit your solution. You can also check if there is an existing solution and give them some feedback.
+
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+  <a href="https://www.linkedin.com/in/katrin-porkul-0bb99a1ba/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="katrin-porkul" height="30" width="40" /></a>
+</p>
