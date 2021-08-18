@@ -1,42 +1,37 @@
 
-# DevChallenges
-
-### About this repository
+# About this repository
 
 Hello everyone, this repository contains all of mine solutions for DevChallenges.
 
 If you are not familiar with DevChallenges let me tell you what is it.
 
-### What is DevChallenges🤔?
+## What is DevChallenges🤔?
 
 <br />
 <p align="center">
-    <a href="https://devchallenge.now.sh/">
+    <a href="https://devchallenges.io/">
     <img src="https://trello-attachments.s3.amazonaws.com/590fa896d2d25e50583de620/500x500/0bdcc819ea145cb0167619c6d00f2174/D.png" alt="Logo" width="100" height="100">
   </a>
   
-  <h3 align="center">DevChallenge</h3>
-
   <p align="center">
     A website for developers to improve their skills by doing front-end and back-end challenges
        <br />
-    <br />
-     <a href="https://devchallenges.io/">DevChallenge</a>    
+    <br /> 
   </p>
 
 [DevChallenges](https://devchallenges.io/challenges) is a website created by [Thu Nghiem](https://twitter.com/thunghiemdinh). The site contains different projects with different levels of difficulty so you can pick one that works best for you. Each project is different and will test you different aspects of coding, projects contain basic files that are needed for you to start as well as a beautiful design file that you are trying to recreate.
 
-[DevChallenges](https://devchallenges.io/challenges) website also includes [Challenge Paths](https://devchallenges.io/paths), at the moment there are three
+[DevChallenges](https://devchallenges.io/challenges) website also includes challenge paths, at the moment there are three
 
-### [Responsive Web Developer path](https://devchallenges.io/paths/responsiveWebPaths)
+### [Responsive Web Developer path](https://devchallenges.io/paths/responsive-web-developer)
 
 > The only way to become a web developer is to start building websites with real-life practices. If you want to be a better developer, practice your development skills or learn to work with other developers, this challenge is for you.
 
-### [Front-end Developer path](https://devchallenges.io/paths/frontEndPaths)
+### [Front-end Developer path](https://devchallenges.io/paths/front-end-developer)
 
 > Front-end developers are in high demand. There is no better ways to improve your front-end skills than practicing it. This path includes list of challenges from easy to advanced, you will work with different APIs, beautiful designs and challenging tasks.
 
-### [Full-stack Developer path](https://devchallenges.io/paths/fullStackPaths)
+### [Full-stack Developer path](https://devchallenges.io/paths/full-stack-developer)
 
 > A full stack developer understands all the techniques involved in a development project, they can provide help to all team member and switch between front-end and back-end. If you want to create a web application from start to finish, this path is for you.
 
