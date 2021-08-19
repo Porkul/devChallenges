@@ -1,5 +1,5 @@
 
-<h1 align="center">404-not-found</h1>
+<h1 align="center">404 NOT FOUND</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -17,31 +17,21 @@
   </h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Built With](#built-with)
-- [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
 ## Overview
 
-https://user-images.githubusercontent.com/86647070/130151238-213768da-a5fa-4e16-b72c-baf04c34a6e5.mp4
+<div align="center">
+ <img src="https://user-images.githubusercontent.com/86647070/130154929-c7ca2aae-7065-43a8-97c8-c4a086951f37.gif"/>
+</div>
 
 
-
-### Built With
+## Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 
 ## Acknowledgements
