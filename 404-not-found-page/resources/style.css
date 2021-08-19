@@ -1,1 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+:root{
+    /*--============= Fonts ================--*/
+    --font-family-header: 'Inconsolata', monospace;
+    --font-family-content: 'Space Mono', monospace;
+    --font-family-footer: 'Montserrat', sans-serif;
+    /*--=========== Font-size ==============--*/
+    --fs-header: 2.4rem;
+    --fs-h2: 4.8rem;
+    --fs-p: 1.8rem;
+    --fs-btn: 1.4rem;
+    --fs-footer: 1.4rem;
+    /*--=========== Line height ============--*/
+    --lh-header: 2.4rem;
+    --lh-h2: 7.1rem;
+    --lh-p: 2.7rem;
+    --lh-btn: 2.1rem;
+    --lh-footer: 1.7rem;
+    /*--============= Body ================--*/
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-bold: 700;
+    --color-header: #333333;
+    --color-content: #4F4F4F;
+    --color-btn-text: #FFFFFF;
+    --color-btn: #333333;
+    --color-footer: #BDBDBD;
+}
+
+@media (min-width: 480px) {
+    :root {
+    /*--=========== Font-size ==============--*/
+       --fs-h2: 5.2rem;
+       --fs-p: 2.2rem;
+    /*--=========== Line height ============--*/
+       --lh-h2: 7.6rem;
+       --lh-p: 3.0rem;
+   }
+}
+
+body {
+    font-family:var(--font-family-content) ;
+    font-size: var(--fs-p);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+}
+
+header{
+    margin-bottom: 6.4rem;
+}
+
+header h1{
+    font-family: var(--font-family-header);
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-header);;
+    line-height: var(--lh-header);
+    color:var(--color-header);
+    text-transform: uppercase;
+    margin: 2rem 0px 0px;
+}
+
+.container{
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+    justify-content: center;
+}
+footer.container,
+main.container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 1100px) {
+footer.container,
+main.container {
+        margin-left: 6.5%;
+        margin-right: 6.5%;
+    }
+  }
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image {
+    margin-bottom: 3.75rem;
+    text-align: center;
+}
+
+.image img {
+    width: 87.8%;
+    height: 100%;    
+}
+
+/*--=========== Animation =============--*/
+.image img:hover {
+    animation: 2s infinite alternate cubic-bezier(.77, 0, .18, 1) escala;
+}
+
+@keyframes escala {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(45deg);
+    }
+    75% {
+        transform: rotate(-45deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+.details h2 {
+    font-family: var(--font-family-content);
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-h2);
+    line-height: var(--lh-h2);
+    color: var(--color-header);
+    letter-spacing: -0.05em;
+    margin-bottom: 3rem;
+}
+
+.details p {
+    margin-top: 3px;
+    font-family: var(--font-family-content);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-p);
+    line-height: var(--lh-p);
+    color: var(--color-content);
+    line-height: 36px;
+    letter-spacing: -0.035em;
+}
+
+.details button{font-family: var(--font-family-content);
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-btn);
+    line-height: var(--lh-btn);
+    letter-spacing: -0.035rem;
+    text-transform: uppercase;
+    color: var(--color-btn-text);
+    background: var(--color-btn);
+    white-space: nowrap;
+    padding: 24px 44px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 64px;
+    margin-bottom: 24;
+}
+
+footer p {
+    font-family: var(--font-family-footer);
+    font-weight: var(--fw-medium);
+    font-size: var(--fs-footer);
+    line-height: var(--lh-footer);
+    color: var(--color-footer);
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 7.1rem;
+    
+}
+
+footer p span a,
+footer p span a:visited {
+    color: #BDBDBD;
+}
+
+
+/*--=========== Media query =============--*/
+
+@media screen and (min-width: 768px){
+
+    header h1 {
+        margin-top: 4rem;
+    }
+    .container {
+        max-width: 120rem;
+    }
+    .content {
+        flex-direction: row;
+    }
+    .image {
+        margin-bottom:0;
+    }
+}
+
+@media screen and  (min-width: 480px) {
+    :root {
+    /*--=========== Font-size ==============--*/
+       --fs-h2: 5.2rem;
+       --fs-p: 2.2rem;
+    /*--=========== Line height ============--*/
+       --lh-h2: 7.6rem;
+       --lh-p: 3.0rem;
+   }
+
+}
+
+@media screen and  (min-width: 768px) {
+    :root {
+    /*--=========== Font-size ==============--*/
+       --fs-h2: 6.4rem;
+       --fs-p: 2.4rem;
+    /*--=========== Line height ============--*/
+       --lh-h2: 9.5rem;
+       --lh-p: 3.6rem;
+   }
+}
+
 
