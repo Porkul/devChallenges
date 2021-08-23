@@ -213,7 +213,7 @@ header h4:hover {
   line-height: 17px;
 }
 
-@media only screen and (max-width:916px){
+@media only screen and (max-width:920px){
   .container{
     flex-direction: column;
   }
@@ -242,14 +242,22 @@ header h4:hover {
     margin: 40px 0;
     align-self: flex-start;
   }
+
 }
 
 @media only screen and (max-width:638px){
-  nav ul li {
+  header nav ul li {
     padding: 0;
+    display: flex;
+    justify-content: center;
   }
-  nav ul {
-    background-color: black;
+  header nav ul li:hover{
+    border-bottom:none;
+    color:#f7c709;
+  }
+
+  header nav ul {
+    background-color: rgba(11, 11, 11,0.99);
     z-index: 1;
     display: none;
     position: fixed;
@@ -272,8 +280,6 @@ header h4:hover {
     text-decoration: none;
     top: 40;
   }
-
-
   nav ul li {
     display: block;
     margin-top: 10%;
