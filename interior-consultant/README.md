@@ -3,13 +3,15 @@
 <h1 align="center">INTERIOR CONSULTANT</h1>
 
 <div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
+   Responsive solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
 </div>
 
 
 <!-- OVERVIEW -->
 
 ## Overview
+
+<p>IphoneX, Ipad, Desktop + gif with animation</p>
 
 <div align="center">
       <img src="https://user-images.githubusercontent.com/86647070/130492561-7499d87d-7ce4-4282-bb4b-1c5b79149c2d.jpg" height="600" width="250"/>
