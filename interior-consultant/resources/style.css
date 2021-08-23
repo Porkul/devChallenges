@@ -132,7 +132,7 @@ header h4:hover {
     position: relative;
     bottom: 70px;
     left: 35%;
-    background-color:#181719;;
+    background-color: rgba(24, 23, 25,0.95);
     box-shadow: 0 3px rgb(0 0 0 / 25%);
 }
 
