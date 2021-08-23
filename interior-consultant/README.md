@@ -7,9 +7,7 @@
 </div>
 
 
-<!-- OVERVIEW -->![interior (1)](https://user-images.githubusercontent.com/86647070/130495959-a0c1ce6f-bf1d-43d2-88ec-25b86f6e006e.gif)
-
-
+<!-- OVERVIEW -->
 
 ## Overview
 
