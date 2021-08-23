@@ -1,0 +1,202 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400&family=Montserrat:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400&family=Lora:wght@400;500&family=Montserrat:wght@300;400;500&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+*,*::before,*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+  body{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #181719;
+    color: white;
+  }
+
+
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    top:40px;
+    margin-bottom: 50px;
+}
+header nav ul li {
+    display: inline-flex;
+    margin-left:46px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: Montserrat;
+}
+
+header nav ul li:hover {
+    border-bottom: 2px solid  #f4c50d;
+    transition: all 0.2s;
+    padding: 0 5px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+header h4{
+    font-size: 15px;
+    border: 1px solid white;
+    padding: 5px 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+header h4:hover {
+    border: 1px solid  #f4c50d;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+/* main */
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 20px 50px 20px;
+}
+
+/* first section */
+.description {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  .description > h1 {
+    font-family: Lora;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 61px;
+  }
+  .description > p {
+    font-size: 25px;
+    line-height: 29px;
+    text-align: start;
+    max-width: 410px;
+    height: auto;
+    margin-top: 40px;
+    margin-right: 100px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+
+  }
+  .description > a {
+    text-decoration: none;
+    margin-top: 48px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+/* second section */
+  .porfolio{
+    position: relative;
+    height: auto;
+  }
+  .image{
+    object-fit: cover;
+    position: relative;
+  }
+  .design-image{
+    width: 100%;
+  }
+
+  .card{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: auto;
+    position: relative;
+    bottom: 70px;
+    left: 35%;
+    background-color:#181719;;
+    box-shadow: 0 3px rgb(0 0 0 / 25%);
+}
+
+.card .about{
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 10px;
+    padding: 20px 20px;
+}
+.card .my-photo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 16px;
+}
+
+.my-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 15px;
+}
+
+.my-data .name{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.portfolio-status{
+    font-family: "Lora", serif;
+    color: white;
+    padding: 0px 20px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 30px;
+}
+/* footer */
+  footer {
+    position: relative;
+    bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    color:#BDBDBD;
+    font-family:'Montserrat', sans-serif;
+  }
+  
+  footer a{
+    color:#BDBDBD;
+  }
+  
+  a:link,
+  a:visited {
+    text-decoration: none;
+    color:white;
+  }
+  
+  a:hover,
+  a:active {
+    color: #ffd739;
+  }
